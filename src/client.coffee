@@ -1,4 +1,4 @@
-### Log.io Web Client
+### Log.v4 Web Client
 
 Listens to server for new log messages, renders them to screen "widgets".
 

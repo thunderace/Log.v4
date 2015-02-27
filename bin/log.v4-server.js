@@ -6,9 +6,9 @@ logging = new winston.Logger({
   })]
 });
 homeDir = process.env[(process.platform == 'win32') ? 'USERPROFILE' : 'HOME'];
-webConf = require(homeDir + '/.log.io/web_server.conf').config;
+webConf = require(homeDir + '/.Log.v4/web_server.conf').config;
 webConf.logging = logging;
-logConf = require(homeDir + '/.log.io/log_server.conf').config;
+logConf = require(homeDir + '/.Log.v4/log_server.conf').config;
 logConf.logging = logging;
 server = require('../index.js');
 logServer = new server.LogServer(logConf);

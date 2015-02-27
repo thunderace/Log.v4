@@ -1,4 +1,4 @@
-### Log.io Functional tests
+### Log.v4 Functional tests
 #
 # Stands up all 3 components, verifies that writing to a file
 # ends up populating a client collection.

@@ -1,4 +1,4 @@
-### Log.io Log Server
+### Log.v4 Log Server
 
 Relays inbound log messages to web clients
 
@@ -210,7 +210,7 @@ class WebServer
       return http.createServer app
 
   run: ->
-    @_log.info 'Starting Log.io Web Server...'
+    @_log.info 'Starting Log.v4 Web Server...'
     @logServer.run()
     io = io.listen @http.listen @port, @host
     io.set 'log level', 1

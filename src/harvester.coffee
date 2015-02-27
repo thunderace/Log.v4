@@ -1,4 +1,4 @@
-### Log.io Log Harvester
+### Log.v4 Log Harvester
 
 Watches local files and sends new log message to server via TCP.
 

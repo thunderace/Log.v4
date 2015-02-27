@@ -1,13 +1,16 @@
 {
-  "name": "log.io",
-  "description": "Realtime log monitoring in your browser",
+  "name": "log.v4",
+  "description": "It is a fork from NarrativeScience/Log.io",
   "version": "0.3.4",
-  "homepage": "http://logio.org",
   "keywords": ["logs", "monitoring", "realtime", "socket.io", "node.js", "ajax"],
-  "author": "Mike Smathers <msmathers@narrativescience.com>",
+  "author": "radmonac",
   "contributors": [
     { "name": "Mike Smathers", "email": "msmathers@narrativescience.com" }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radmonac/Log.v4"
+  },
   "dependencies": {
     "backbone": "~0.9.10",
     "underscore": "~1.4.3",
@@ -28,8 +31,8 @@
     "sinon": "~1.5.2"
   },
   "bin" : {
-    "log.io-server": "./bin/log.io-server",
-    "log.io-harvester": "./bin/log.io-harvester"
+    "Log.v4-server": "./bin/Log.v4-server.js",
+    "Log.v4-harvester": "./bin/Log.v4-harvester.js"
   },
   "scripts": {
     "prepublish": "cake build",
